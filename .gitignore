@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist_electron/
+src/renderer/dist/
+
+# Generated offline map tiles (run `npm run download-tiles`)
+src/assets/offline-tiles/
+
+# Runtime data
+data/
+*.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
